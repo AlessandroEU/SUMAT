@@ -6,15 +6,19 @@ Bondarenko Alex
 Group COI-21-1
 Exercise #3
 */
+int suma(int a, int b)
+{
+	int r;
+	r = a + b;
+
+	return r;
+}
 int main()
 {
-	int suma, a, b, r;
-	cout << "Enter 1 number" << endl;
-	cin >> a;
-	cout << "Enter 2 number" << endl;
-	cin >> b;
-	r = a + b;
-	r = abs(r);
-	cout << "Result " << r << endl;
-	return 0;
+	int c;
+	c = suma(-9, 1);
+	c = abs(c);
+	cout << c << endl;
+
+
 }
