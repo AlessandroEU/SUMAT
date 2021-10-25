@@ -8,14 +8,13 @@ Exercise #3
 */
 int main()
 {
-	setlocale(LC_ALL, "ru");
 	int suma, a, b, r;
-	cout << "¬ведите 1 число" << endl;
+	cout << "Enter 1 number" << endl;
 	cin >> a;
-	cout << "¬ведите 2 число" << endl;
+	cout << "Enter 2 number" << endl;
 	cin >> b;
 	r = a + b;
 	r = abs(r);
-	cout << "–езультат " << r << endl;
+	cout << "Result " << r << endl;
 	return 0;
 }
